@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <title>EduGuard - Login</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+</head>
+
+<body data-page="login" class="login-body">
+
+<div class="login-card">
+
+    <h1>🎓 EduGuard</h1>
+
+    <p class="subtitle">
+        Student Performance &amp; Academic Risk Prediction
+    </p>
+
+
+    <!-- LOGIN SECTION -->
+
+    <div id="loginSection">
+
+        <h2>Login</h2>
+
+        <form id="loginForm">
+
+            <label>
+                Username
+
+                <input
+                        type="text"
+                        id="username"
+                        name="username"
+                        required
+                        autofocus
+                >
+            </label>
+
+            <label>
+                Password
+
+                <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        required
+                >
+            </label>
+
+            <button type="submit">
+                Login
+            </button>
+
+            <p id="msg" class="error"></p>
+
+        </form>
+
+        <p>
+            <button type="button" id="showForgot">
+                Forgot Password?
+            </button>
+        </p>
+
+    </div>
+
+
+    <!-- FORGOT PASSWORD SECTION -->
+
+    <div id="forgotSection" style="display: none;">
+
+        <h2>Reset Password</h2>
+
+        <form id="forgotForm">
+
+            <label>
+                Username
+
+                <input
+                        type="text"
+                        id="forgotUsername"
+                        name="username"
+                        required
+                >
+            </label>
+
+            <label>
+                New Password
+
+                <input
+                        type="password"
+                        id="forgotPassword"
+                        name="newPassword"
+                        minlength="6"
+                        required
+                >
+            </label>
+
+            <label>
+                Confirm New Password
+
+                <input
+                        type="password"
+                        id="forgotConfirmPassword"
+                        name="confirmPassword"
+                        minlength="6"
+                        required
+                >
+            </label>
+
+            <button type="submit">
+                Reset Password
+            </button>
+
+            <p id="forgotMsg"></p>
+
+        </form>
+
+        <p>
+            <button type="button" id="showLogin">
+                Back to Login
+            </button>
+        </p>
+
+    </div>
+
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
+
+</html>

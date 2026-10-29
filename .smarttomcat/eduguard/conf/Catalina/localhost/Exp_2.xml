@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="C:\Users\ANISH\IdeaProjects\Exp_2\src\main\webapp">
+  <Resources cacheMaxSize="10240">
+    <PreResources base="C:/Users/ANISH/IdeaProjects/Exp_2/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+  </Resources>
+</Context>
